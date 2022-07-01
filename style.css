@@ -1,0 +1,58 @@
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background: #474bff;
+background: -webkit-radial-gradient(circle, #474bff 0%, #bc48ff 100%);
+background: radial-gradient(circle, #474bff 0%, #bc48ff 100%);
+
+
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+div {
+    
+    height: 350px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: (-50%, -50%);
+    padding: 40px;
+    border-radius: 15px;
+    color: rgb(175, 150, 150);
+    margin: 1%;
+    
+
+}
+
+
+
+input{
+    padding: 10px;
+    border : none;
+    outline: none;
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+}
+
+.botao {
+    background-color: rgb(69, 50, 235);
+    border:  none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: wheat;
+    height: 50px;
+}
+
+button :hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
